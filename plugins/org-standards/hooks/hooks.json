@@ -6,7 +6,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"${CLAUDE_PLUGIN_ROOT}/scripts/lint.sh\""
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/lint.sh",
+            "args": []
           }
         ]
       }
